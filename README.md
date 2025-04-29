@@ -15,8 +15,9 @@
 - Open Docker Desktop
 
 - Open terminal in the root path of the project containing docker-compose.yaml
+- Run '''mvn package'''
 
-- Run ```docker compose -up -d``` command
+- After jar i ready run ```docker compose -up -d``` command
 
 ### TESTING THE APLLICATION
 - Run ```mvn integration-test```   for integration tests
